@@ -1,0 +1,11 @@
+<h1>Welcome</h1>
+{{#if published}}
+	{{content}}
+{{/if}}
+
+
+<ul>
+{{#each everybody}}
+	<li>{{this.fname}} {{this.lname}}</li>
+{{/each}}
+</ul>
